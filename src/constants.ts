@@ -1,0 +1,68 @@
+import { MenuItem } from './types';
+
+export const MENU_ITEMS: MenuItem[] = [
+  {
+    id: '1',
+    name: 'Signature Espresso',
+    description: 'Rich, full-bodied espresso with notes of dark chocolate and caramel.',
+    price: 3.50,
+    category: 'Coffee',
+    image: 'https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?auto=format&fit=crop&q=80&w=800',
+  },
+  {
+    id: '2',
+    name: 'Oat Milk Latte',
+    description: 'Smooth espresso paired with creamy, steamed oat milk.',
+    price: 4.75,
+    category: 'Coffee',
+    image: 'https://images.unsplash.com/photo-1551030173-122aabc4489c?auto=format&fit=crop&q=80&w=800',
+  },
+  {
+    id: '3',
+    name: 'Matcha Ceremonial',
+    description: 'Premium grade Japanese matcha whisked to perfection.',
+    price: 5.25,
+    category: 'Tea',
+    image: 'https://images.unsplash.com/photo-1515823064-d6e0c04616a7?auto=format&fit=crop&q=80&w=800',
+  },
+  {
+    id: '4',
+    name: 'Almond Croissant',
+    description: 'Flaky, buttery pastry filled with sweet almond cream.',
+    price: 4.50,
+    category: 'Pastry',
+    image: 'https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&q=80&w=800',
+  },
+  {
+    id: '5',
+    name: 'Cold Brew Reserve',
+    description: '24-hour steeped coffee served over artisanal ice.',
+    price: 4.25,
+    category: 'Coffee',
+    image: 'https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&q=80&w=800',
+  },
+  {
+    id: '6',
+    name: 'Hibiscus Iced Tea',
+    description: 'Refreshing herbal tea with floral notes and a tart finish.',
+    price: 3.95,
+    category: 'Tea',
+    image: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&q=80&w=800',
+  },
+  {
+    id: '7',
+    name: 'Pain au Chocolat',
+    description: 'Classic French pastry with two bars of dark chocolate.',
+    price: 4.25,
+    category: 'Pastry',
+    image: 'https://images.unsplash.com/photo-1530610476181-d83430b64dcd?auto=format&fit=crop&q=80&w=800',
+  },
+  {
+    id: '8',
+    name: 'Lavender Honey Latte',
+    description: 'Seasonal favorite with house-made lavender syrup and local honey.',
+    price: 5.50,
+    category: 'Seasonal',
+    image: 'https://images.unsplash.com/photo-1572286258217-315822c04024?auto=format&fit=crop&q=80&w=800',
+  },
+];
